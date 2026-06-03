@@ -1,0 +1,3 @@
+[submodule "themes/customtheme1"]
+	path = themes/customtheme1
+	url = https://github.com/funkycryptid1/mountmangowebsite.git
