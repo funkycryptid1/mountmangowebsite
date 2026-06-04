@@ -6,11 +6,12 @@ h1{
     list-style-type: none;
     background-image: url(https://i.imgur.com/9mdWDuY.jpeg);
     padding: 0px;
-    margin: 0px;
+    margin: 30px;
     overflow: hidden;
 }
+
 .main{
-    margin: 20px;
+    margin: 50px;
 }
 
 .navbar a{
@@ -18,11 +19,11 @@ h1{
     text-decoration: none;
     padding: 15px;
     display: block;
-    text-align: left;
+    text-align: right;
 }
 
 .navbar a:hover{
-    background-color: rgb(36, 42, 84);
+    background-color: rgb(40, 45, 87);
 }
 .navbar li{
     float: left;
