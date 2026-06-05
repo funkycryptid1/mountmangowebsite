@@ -25,7 +25,7 @@ h1{
 }
 
 .navbar a:hover{
-    background-color: rgb(40, 45, 87);
+    background-color: rgba(14, 17, 37, 0.414);
 }
 .navbar li{
     
@@ -49,7 +49,7 @@ body{ background-color: grey;}
 
 .navbar2 ul{
     list-style-type: none;
-    background-color: rgb(106, 131, 196);
+    background-color: rgba(243, 50, 124, 0.851);
 
 }
 .navbar2 a{
@@ -59,9 +59,20 @@ body{ background-color: grey;}
     display: block;
     text-align: left;
 }
+.navbar2 a:hover{
+    background-color: rgba(78, 15, 76, 0.626);
+}
 .navbar3 ul{
     list-style-type: none;
-    background-color:beige;
+    background-color:rgba(245, 245, 220, 0.404);
+    padding: 10px;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.navbar4 ul{
+    list-style-type: none;
+    background-color:rgb(128, 185, 242);
     padding: 10px;
     margin: 30px;
     overflow: hidden;
@@ -71,5 +82,7 @@ body{ background-color: grey;}
    
 }
 g{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family: 'Arial Narrow';
 }
+
+
