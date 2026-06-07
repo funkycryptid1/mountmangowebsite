@@ -89,6 +89,15 @@ body{ background-color: grey;}
     margin: 30px;
     overflow: hidden;
 }
+
+.button{
+ padding: 10px;
+ font-size: 16px;
+ cursor: pointer;
+}
+
+
+
 .title {
     color: rgb(255, 255, 255);
    
@@ -100,7 +109,17 @@ g{
 #sidebar {
     position: fixed;
     left: 0;
-    top: 20%;
+    top: 23%;
+    width: 10em;
+    margin-top:-2.5em;
+    background-color: rgba(118, 255, 64, 0.271);
+   
+}
+
+#sidebar1x {
+    position: fixed;
+    left: 0;
+    top: 19%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(118, 255, 64, 0.271);
@@ -120,7 +139,16 @@ g{
 #sidebar2 {
     position: fixed;
     right: 0;
-    top: 20%;
+    top: 23%;
+    width: 10em;
+    margin-top:-2.5em;
+    background-color: rgba(0, 255, 174, 0.271);
+}
+
+#sidebar2x {
+    position: fixed;
+    right: 0;
+    top: 19%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(0, 255, 174, 0.271);
