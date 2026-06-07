@@ -12,12 +12,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
 </head>
-<body>
-
-
-
-
 
 
 <h2><nav class = navbar>
@@ -32,6 +28,7 @@
 </nav> </h2>
 
 
+<!--SIDEBAR 1 SCRIPT -->
   <ul id="sidebar"><g>
 
         <h1><a href ="#chapter1">Chapter 1</a>
@@ -44,9 +41,7 @@
 
  </h1></ul></g>
 
-
-
- <ul id="sidebar">
+<ul id="sidebar">
 <ul id = hide>
   <button onclick=MyFunction()>Show / Hide </button>
 </hid>           
@@ -61,6 +56,70 @@ function MyFunction() {
 }
  </script>
 </ul></ul>
+<!--SIDEBAR 1 SCRIPT -->
+
+<!--LIL GUY REF TO JS -->
+
+<body>
+    <div id="container">
+      <div id = "lilguy" draggable="true"></div>
+
+
+
+    </div>
+</body>
+
+<script src = 'main.js' defer>
+      var sidebar2 = document.getElementById("lilguy");
+      lilguy.display.style === none;
+</script>
+</html>
+
+<!--LIL GUY REF TO JS -->
+
+<!--SIDEBAR 2 SCRIPT -->
+  <ul id="sidebar2"><g>
+  <ul id = hide2>
+
+        <h1><button onclick=MyFunction3() > Lil Guy - Toggle</a>
+        <script>
+        function MyFunction3() {
+        var sidebar2 = document.getElementById("lilguy");
+        if (lilguy.style.display === "none") {
+            lilguy.style.display = "block";
+        } else {
+           lilguy.style.display = "none";
+        }
+}
+        </script>
+        </ul></ul>
+
+
+ </h1></ul></g>
+
+<ul id="sidebar2">
+<ul id = hide2>
+  <button onclick=MyFunction2()>Show / Hide </button>
+</hid>           
+<script>
+function MyFunction2() {
+    var sidebar2 = document.getElementById("sidebar2");
+    if (sidebar2.style.display === "none") {
+        sidebar2.style.display = "block";
+    } else {
+        sidebar2.style.display = "none";
+    }
+}
+ </script>
+</ul></ul>
+
+<!--SIDEBAR 2 SCRIPT -->
+
+
+
+
+
+
 
 <div class=gc>
 
