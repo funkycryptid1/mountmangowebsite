@@ -15,7 +15,7 @@
 
 </head>
 
-
+<body>
 <h2><nav class = navbar>
 
      <ul>
@@ -43,7 +43,7 @@
 
 <ul id="sidebar">
 <ul id = hide>
-  <button onclick=MyFunction()>Show / Hide </button>
+  <button onclick=MyFunction()>Chapters</button>
 </hid>           
 <script>
 function MyFunction() {
@@ -59,15 +59,10 @@ function MyFunction() {
 <!--SIDEBAR 1 SCRIPT -->
 
 <!--LIL GUY REF TO JS -->
-
-<body>
     <div id="container">
       <div id = "lilguy" draggable="true"></div>
-
-
-
     </div>
-</body>
+
 
 <script src = 'main.js' defer>
       var sidebar2 = document.getElementById("lilguy");
@@ -85,6 +80,7 @@ function MyFunction() {
         <script>
         function MyFunction3() {
         var sidebar2 = document.getElementById("lilguy");
+        lilguy.style.display = "none";
         if (lilguy.style.display === "none") {
             lilguy.style.display = "block";
         } else {
@@ -99,7 +95,7 @@ function MyFunction() {
 
 <ul id="sidebar2">
 <ul id = hide2>
-  <button onclick=MyFunction2()>Show / Hide </button>
+  <button onclick=MyFunction2()>Fun Stuff</button>
 </hid>           
 <script>
 function MyFunction2() {
@@ -130,3 +126,4 @@ function MyFunction2() {
 
 
   </div>
+</body>

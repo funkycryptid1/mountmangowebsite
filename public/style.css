@@ -2,6 +2,11 @@ h1{
     text-align: center;
 }
 
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .navbar ul{
     list-style-type: none;
     background-image: url(https://i.imgur.com/9mdWDuY.jpeg);
@@ -136,7 +141,6 @@ g{
     background-image:url(https://i.imgur.com/QaZBv7A.png);
     border-radius: 5px;
     cursor: pointer;
-    background-position: center;
     position: fixed;
     right: 0;
     top: 30%;
