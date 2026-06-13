@@ -3,9 +3,9 @@ h1{
 }
 
 .body{
-    display: flex;
+    
     justify-content: space-evenly;
-    align-items: center;
+    
 }
 .navbar ul{
     list-style-type: none;
@@ -14,6 +14,8 @@ h1{
     margin: 30px;
     overflow: hidden;
     display: flex;
+    align-items: center;
+
 }
 
 .main{
@@ -110,7 +112,7 @@ g{
 #sidebar {
     position: fixed;
     left: 0;
-    top: 23%;
+    top: 31%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(118, 255, 64, 0.271);
@@ -120,7 +122,7 @@ g{
 #sidebar1x {
     position: fixed;
     left: 0;
-    top: 19%;
+    top: 30%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(118, 255, 64, 0.271);
@@ -140,7 +142,7 @@ g{
 #sidebar2 {
     position: fixed;
     right: 0;
-    top: 23%;
+    top: 25%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(0, 255, 174, 0.271);
@@ -149,7 +151,7 @@ g{
 #sidebar2x {
     position: fixed;
     right: 0;
-    top: 19%;
+    top: 26%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(0, 255, 174, 0.271);
@@ -176,9 +178,5 @@ g{
 
 }
 
-
-
 .container{ 
     background-color: grey;}
-
-
