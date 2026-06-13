@@ -36,6 +36,11 @@ h1{
     
     margin-left: 250px;
 }
+@media (max-width: 600px){
+    body{
+        background-color: black;
+    }
+}
 
 .center {
   display: block;
