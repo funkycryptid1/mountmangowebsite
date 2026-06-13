@@ -112,7 +112,7 @@ g{
 #sidebar {
     position: fixed;
     left: 0;
-    top: 31%;
+    top: 35%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(118, 255, 64, 0.271);
@@ -142,7 +142,7 @@ g{
 #sidebar2 {
     position: fixed;
     right: 0;
-    top: 25%;
+    top: 35%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(0, 255, 174, 0.271);
@@ -151,7 +151,7 @@ g{
 #sidebar2x {
     position: fixed;
     right: 0;
-    top: 26%;
+    top: 30%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(0, 255, 174, 0.271);
