@@ -37,10 +37,11 @@ h1{
     margin-left: 250px;
 }
 @media (max-width: 600px){
-    body{
-        background-color: black;
-    }
+.container{ 
+    background-color: black;}
+
 }
+
 
 .center {
   display: block;
@@ -49,8 +50,6 @@ h1{
   
 }
 
-
-body{ background-color: grey;}
 
 .textbg b{
 
