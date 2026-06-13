@@ -2,18 +2,18 @@ h1{
     text-align: center;
 }
 
-.body{
+@media screen and (max-width: 600px){
     
-    justify-content: space-evenly;
-    
+body{ background-color: rgb(0, 0, 0);}
+
 }
+
 .navbar ul{
     list-style-type: none;
-    background-image: url(https://i.imgur.com/9mdWDuY.jpeg);
-    padding: 10px;
-    margin: 30px;
+    display: flex;
     overflow: hidden;
 }
+
 
 .main{
     margin: 50px;
@@ -26,6 +26,7 @@ h1{
     display: block;
     text-indent: 0px;
     float: left;
+
     
 }
 
@@ -33,13 +34,8 @@ h1{
     background-color: rgba(14, 17, 37, 0.414);
 }
 .navbar li{
-    
+    /*pushes links past logo*/
     margin-left: 250px;
-}
-@media (max-width: 600px){
-.container{ 
-    background-color: black;}
-
 }
 
 
@@ -50,6 +46,8 @@ h1{
   
 }
 
+
+body{ background-color: grey;}
 
 .textbg b{
 
@@ -113,7 +111,7 @@ g{
 #sidebar {
     position: fixed;
     left: 0;
-    top: 35%;
+    top: 31%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(118, 255, 64, 0.271);
@@ -123,7 +121,7 @@ g{
 #sidebar1x {
     position: fixed;
     left: 0;
-    top: 30%;
+    top: 29%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(118, 255, 64, 0.271);
@@ -143,7 +141,7 @@ g{
 #sidebar2 {
     position: fixed;
     right: 0;
-    top: 35%;
+    top: 31%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(0, 255, 174, 0.271);
@@ -152,7 +150,7 @@ g{
 #sidebar2x {
     position: fixed;
     right: 0;
-    top: 30%;
+    top: 29%;
     width: 10em;
     margin-top:-2.5em;
     background-color: rgba(0, 255, 174, 0.271);
@@ -178,6 +176,3 @@ g{
     top: 65%;
 
 }
-
-.container{ 
-    background-color: grey;}
