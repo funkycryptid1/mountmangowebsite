@@ -45,7 +45,10 @@ img{
     width: 600px;
     height: auto;
 }
-body{ background-color: rgb(0, 0, 0);}
+.ab {
+width: 600px;
+height: auto;
+}
 
 
 }
