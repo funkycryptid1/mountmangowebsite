@@ -34,18 +34,6 @@ h1{
     margin-left: 250px;
 }
 
-@media screen and (max-width: 600px){
-body{
-    width: 200%;
-    margin: 0;   
-}
-img{
-    width: 100%;
-    height: auto;
-    display: center;
-}
-}
-
 
 .center {
   display: block;
