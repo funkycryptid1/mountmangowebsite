@@ -21,9 +21,12 @@ h1{
     padding: 15px;
     display: block;
     text-indent: 0px;
-    float: left;
+    float: left;   
+}
 
-    
+.navbar s{
+    width: auto;
+    height: auto;
 }
 
 .navbar a:hover{
@@ -32,6 +35,10 @@ h1{
 .navbar li{
     /*pushes links past logo*/
     margin-left: 250px;
+}
+.navbar p{
+    /*pushes icons right*/
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 600px){
@@ -98,7 +105,7 @@ body{ background-color: grey;}
 
 .navbar4 ul{
     list-style-type: none;
-    background-color:rgb(128, 185, 242);
+    background-color:rgb(139, 86, 171);
     padding: 10px;
     margin: 30px;
     overflow: hidden;
