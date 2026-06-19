@@ -5,12 +5,17 @@ isMouseDown = false;
 
 const dragabbleDiv = document.getElementById('lilguy')
 
+
+
+
 dragabbleDiv.addEventListener('mousedown', (e) =>{
     isMouseDown = true;
     offsetX = dragabbleDiv.offsetLeft - e.clientX;
     offset = dragabbleDiv.offsetTop - e.clientY;
 
+
 });
+
 
 document.addEventListener('mousemove', (e) => {
     if (!isMouseDown) return;
@@ -19,6 +24,7 @@ document.addEventListener('mousemove', (e) => {
     mouseY = e.clientY + offsetY;
     dragabbleDiv.style.top = mouseY + "px"
     dragabbleDiv.style.left = mouseX + "px"
+
 });
 //direction of where it will be dragged
 document.addEventListener('mouseup', (e) => {
