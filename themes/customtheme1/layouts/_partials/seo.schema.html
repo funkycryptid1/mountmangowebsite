@@ -1,0 +1,60 @@
+{{ if .IsHome }}
+<!-- Homepage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ .Permalink }}#website",
+      "url": "{{ .Permalink }}",
+      "name": "{{ .Site.Title }}"
+    },
+    {
+      "@type": "ComicSeries",
+      "@id": "{{ .Permalink }}#comic",
+      "name": "{{ .Site.Title }}",
+      "description": "{{ .Site.Params.description }}",
+      "url": "{{ .Permalink }}",
+      "creator": {
+        "@type": "Person",
+        "name": "{{ .Site.Author.name }}"
+      }
+    }
+  ]
+}
+</script>
+
+{{ else if eq .Section "blog" }}
+<!-- Individual Blog Post Schema -->
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Author.name }}"
+  }
+}
+</script>
+{{ end }}
+
+{{ else if eq .Title "About" }}
+<!-- About Page Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ .Site.Author.name }}",
+  "url": "{{ .Permalink }}",
+  "sameAs": [
+    "https://twitter.com",
+    "https://instagram.com"
+  ]
+}
+</script>
+{{ end }}

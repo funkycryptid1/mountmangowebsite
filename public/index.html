@@ -82,24 +82,24 @@ function MyFunction() {
 <!--LIL GUY REF TO JS -->
 
 <!--SIDEBAR 2 SCRIPT -->
-  <ul id="sidebar2"><g>
-  <ul id = hide2>
+<div id="lilguy" aria-hidden="true"> 
+  <ul id="sidebar2">
+    <li id="hide2"> 
+      <button class="button" onclick="toggleLilGuy()">Lil Mel (Click & Drag)</button> 
+    </li>
+  </ul>
+</div>
 
-        <h1><button class = "button" onclick=MyFunction3() > Lil Mel (Click & Drag)</a>
-        <script>
-        function MyFunction3() {
-        var sidebar2 = document.getElementById("lilguy");
-        if (lilguy.style.display === "none") {
-            lilguy.style.display = "block";
-        } else {
-           lilguy.style.display = "none";
-        }
-}
-        </script>
-        </ul></ul>
-
-
- </h1></ul></g>
+<script> 
+function toggleLilGuy() { 
+  var element = document.getElementById("lilguy"); 
+  if (element.style.display === "none") { 
+    element.style.display = "block"; 
+  } else { 
+    element.style.display = "none"; 
+  } 
+} 
+</script>
 
 <ul id="sidebar2x">
 <ul id = hide2>
@@ -128,10 +128,12 @@ function MyFunction2() {
 <div class=gc>
 
 
-    <img id = "chapter1"style='border:5px solid black' src="https://i.imgur.com/pH1yQO0.jpeg" width="1000" class="center" ></div>
-    <img id = "" src="https://i.imgur.com/98NWqAB.jpeg"width="1000" style='border:5px solid black' class="center" >
-  
-
-
-  </div>
+    <img id = "chapter1"style='border:5px solid black' src="https://i.imgur.com/pH1yQO0.jpeg" width="1000" class="center" alt="Nio stands outside, on the shores of Mount Mango" loading="lazy">></div>
+    <img id = "" src="https://i.imgur.com/98NWqAB.jpeg"width="1000" style='border:5px solid black' class="center" alt="Nio walks into the mountain school, meeting a few people" loading="lazy"></div>
 </body>
+
+<details>
+  <summary>View Comic Transcript (for screen readers and search engines)</summary>
+  <p>Panel 1: Nio is on the shore of Mount Mango, a mystical place</p>
+  <p>Panel 2: Nio enters the mountain school and encounters two drunkards and a bartender</p>
+</details>
