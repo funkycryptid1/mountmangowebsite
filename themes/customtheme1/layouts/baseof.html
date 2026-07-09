@@ -1,1 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Pulls the "title" from your YAML front matter -->
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+  <!-- Pulls the "description" from your YAML front matter -->
+  {{ with .Description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+
+  <!-- Open Graph Card Data for Social Media Previews -->
+  <meta property="og:title" content="{{ .Title }}">
+  {{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
+  {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+
+  <!-- Calls the SEO structured data partial we built earlier -->
+  {{ partial "seo-schema.html" . }}
+</head>

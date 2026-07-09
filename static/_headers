@@ -1,2 +1,13 @@
-/*
-  Link: <https://mountmango.com>; rel="agent"
+# Match only your homepage
+/
+  Link: </sitemap.xml>; rel="sitemap"
+  Link: </about/>; rel="author"
+
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+
+<!-- Social Media Open Graph Cards (For Rich Previews) -->
+<meta property="og:title" content="{{ .Title }}">
+{{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
+{{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
