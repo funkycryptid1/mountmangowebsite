@@ -1,0 +1,10 @@
+<!-- layouts/partials/head.html -->
+<head>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+
+  <meta property="og:title" content="{{ .Title }}">
+  {{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
+  {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+</head>
