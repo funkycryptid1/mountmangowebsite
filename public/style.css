@@ -53,8 +53,6 @@ img{
     height: auto;
 }
 
-
-
 }
 
 
@@ -194,4 +192,8 @@ g{
     right: 0;
     top: 65%;
 
+}
+
+#bl{
+    color: black
 }
