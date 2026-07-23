@@ -1,4 +1,4 @@
-baseURL = 'https://mountmango.com/'
+baseURL = 'https://mountmango.com'
 languageCode = 'en-US'
 title = 'Mount Mango'
 theme = 'customtheme1'
