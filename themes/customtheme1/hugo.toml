@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mountmango.com/'
 languageCode = 'en-US'
-title = 'My New Hugo Site'
+title = 'Mount Mango'
 theme = 'customtheme1'
 
 
