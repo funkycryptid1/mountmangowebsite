@@ -1,1 +1,27 @@
-FIND FORMAT TO PUT HERE
+## What is this document and website about
+
+> This document explains the mountmango.com is a website that hosts the indie webcomic "The Mystery of Mount Mango". The Mystery of
+of Mount Mango can be shortened to Mount Mango for simplicity. The pages of the website will be described in detail in the following
+paragraphs. The Mystery of Mount Mango is a fantasy indie webcomic series being developed by Michael Wolf and is set to release in 2026.
+___
+
+## Homepage Description 
+
+- [Homepage](https://mountmango.com/): This page is the first page seen when going on the website without a trail slash. In the center
+is the comic in a vertical scroll format. On the left side of the page is a chapter menu, which when clicked, leads the user to
+a specific point in the comic. Chapters 1-7 are clickable options, but only the Chapter 1 button works now. There are only two comic
+pages of Chapter 1 on the homepage now. The right menu says "Fun Stuff" and a button that says "Lil Mel", a reference to one of the
+main characters of the comic, Melody Rivers, in a chibi-style fashion. It's a draggable character. Both menus on the homepage can
+be toggled to hide and reappear. 
+
+## Blogs
+
+- [Extras](https://mountmango.com/extras): This page shows two options for the user: to click on a Wiki or Blog pages.
+
+## Extras
+
+- [Blog Posts](https://mountmango.com/blogs): This page shows a selection of blogs that talk about the comic process or journals.
+
+## About
+
+- [About](https://mountmango.com/about): This page shows social media links for the creator.
